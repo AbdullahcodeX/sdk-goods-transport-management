@@ -1,0 +1,4 @@
+openpyxl
+fpdf2
+matplotlib
+pyinstaller
