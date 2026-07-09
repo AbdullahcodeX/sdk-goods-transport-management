@@ -7,7 +7,7 @@ auto-calculated as (Total Brokery - Wasool Kiraya) whenever a
 trip is added or updated, so the numbers can never go out of sync.
 """
 
-from database.db_manager import get_connecti
+from database.db_manager import get_connect
 
 
 def _safe_float(value):
