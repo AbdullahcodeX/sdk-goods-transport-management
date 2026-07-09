@@ -6,7 +6,7 @@ Handles all Fixed and Other expenses linked to a specific trip
 (Tools, Food, Tyre, Police, Inaam, Motorway Toll, GT Road Toll, etc.)
 """
 
-from database.db_manager import get_connection
+from database.db_manager import get_connec
 
 
 def add_expense(trip_id, expense_group, category, amount, description, expense_date):
