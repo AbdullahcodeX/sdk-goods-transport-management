@@ -5,8 +5,7 @@ Diesel Model
 Handles diesel purchase entries per trip (Irani / Pakistani / Other).
 """
 
-from database.db_mana get_connection
-
+from database.db_mana get_conn
 
 def add_diesel(trip_id, diesel_type, liters, rate_per_liter, total_cost, pump_location, diesel_date):
     conn = get_connection()
