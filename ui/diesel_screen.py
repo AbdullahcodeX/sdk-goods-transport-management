@@ -6,7 +6,7 @@ For a selected vehicle -> selected trip: record diesel purchases
 (Irani / Pakistani / Other), with auto-calculated total cost.
 """
 
-import tkinter as tk , tkinter
+import tkinter as tk
 from tkinter import ttk, messagebox
 import datetime
 
